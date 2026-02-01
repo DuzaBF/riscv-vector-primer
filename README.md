@@ -59,3 +59,7 @@ https://simplex-micro.github.io/riscv-vector-primer/
 
 © 2025 Dr. Thang Minh Tran. All rights reserved.  
 No part of this book may be reproduced without permission.
+
+This work is licensed under the Creative Commons
+Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).
+See the LICENSE file for details.
