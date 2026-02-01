@@ -28,6 +28,36 @@ An award‑winning editor with 30+ years of Silicon Valley experience. Jonah has
 
 ---
 
+## How to Cite This Book
+
+If you reference this work in academic papers, technical articles, presentations, or documentation, please cite it as follows.
+
+**Preferred citation (long form):**
+
+Tran, Thang Minh; Miller, Paul; McLeod, Jonah.  
+*RISC-V Vector Primer: An Implementation-Focused Guide to the RISC-V Vector Extension*.  
+Simplex Micro, 2025.  
+Available at: https://simplex-micro.github.io/riscv-vector-primer/
+
+**Short citation:**
+
+T. M. Tran, P. Miller, and J. McLeod, *RISC-V Vector Primer*, Simplex Micro, 2025.
+
+When citing a specific chapter, please include the chapter title and, if applicable, the version or commit date.
+
+**BibTeX:**
+
+```bibtex
+@book{TranRiscVVectorPrimer2025,
+  title        = {RISC-V Vector Primer: An Implementation-Focused Guide to the RISC-V Vector Extension},
+  author       = {Tran, Thang Minh and Miller, Paul and McLeod, Jonah},
+  year         = {2025},
+  publisher    = {Simplex Micro},
+  url          = {https://simplex-micro.github.io/riscv-vector-primer/},
+  note         = {Online edition}
+}
+---
+```
 ## **Chapters**
 
 - **Chapter 1 — RISC‑V Vector Extension Demystified**  
