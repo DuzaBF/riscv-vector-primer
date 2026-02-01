@@ -1,8 +1,15 @@
-# **RISC‑V Vector Processor Primer**
-*A Modern Guide to the RISC‑V Vector Extension (RVV)*
+# 📘 RISC-V Vector Primer
+
+An implementation-focused guide to the RISC-V Vector Extension (RVV 1.0) and the emerging Matrix Extension — written for architects, compiler engineers, and embedded/edge AI developers.
+
+➡️ **Read online:** https://simplex-micro.github.io/riscv-vector-primer/  
+⭐ **Star the repo if you’d like to follow updates**
+
+---
+
 Published by **Simplex Micro**
 
-Welcome to the online edition of the **RISC‑V Vector Processor Primer**, a comprehensive guide to understanding, implementing, and applying the RISC‑V Vector Extension (RVV). This site hosts the full book in chapter‑based form, published openly for engineers, architects, students, and practitioners who want a clear and practical understanding of modern vector computation.
+Welcome to the online edition of the **RISC-V Vector Primer**, a comprehensive guide to understanding, implementing, and applying the RISC-V Vector Extension (RVV). This site hosts the full book in chapter-based form, published openly for engineers, architects, students, and practitioners who want a clear and practical understanding of modern vector computation.
 
 The primer explains RVV from first principles through real hardware design, performance analysis, and the architectural path toward matrix acceleration. It is grounded in decades of industry experience and written to be both accessible and technically rigorous.
 
