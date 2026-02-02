@@ -2,7 +2,7 @@
 
 An implementation-focused guide to the RISC-V Vector Extension (RVV 1.0) and the emerging Matrix Extension — written for architects, compiler engineers, and embedded/edge AI developers.
 
-➡️ **Read online:** https://simplex-micro.github.io/riscv-vector-primer/
+➡️ **Read the chapters:** Browse the chapter files below or [start with Chapter 1](chapter-01.md)
 ⭐ **Star the repo if you’d like to follow updates**
 
 ---
@@ -86,9 +86,6 @@ This primer is published by **Simplex Micro** as part of its mission to advance 
 
 **Source repository:**  
 https://github.com/simplex-micro/riscv-vector-primer
-
-**Online edition:**  
-https://simplex-micro.github.io/riscv-vector-primer/
 
 ---
 
