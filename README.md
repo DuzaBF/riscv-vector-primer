@@ -37,7 +37,7 @@ If you reference this work in academic papers, technical articles, presentations
 Tran, Thang Minh; Miller, Paul; McLeod, Jonah.  
 *RISC-V Vector Primer: An Implementation-Focused Guide to the RISC-V Vector Extension*.  
 Simplex Micro, 2025.  
-Available at: https://simplex-micro.github.io/riscv-vector-primer/
+Available at: https://github.com/simplex-micro/riscv-vector-primer
 
 **Short citation:**
 
@@ -53,7 +53,7 @@ When citing a specific chapter, please include the chapter title and, if applica
   author       = {Tran, Thang Minh and Miller, Paul and McLeod, Jonah},
   year         = {2025},
   publisher    = {Simplex Micro},
-  url          = {https://simplex-micro.github.io/riscv-vector-primer/},
+  url          = https://github.com/simplex-micro/riscv-vector-primer
   note         = {Online edition}
 }
 ---
@@ -86,7 +86,6 @@ This primer is published by **Simplex Micro** as part of its mission to advance 
 
 **Source repository:**  
 https://github.com/simplex-micro/riscv-vector-primer
-
 ---
 
 ## **License**
