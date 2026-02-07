@@ -18,7 +18,7 @@ The basic requirement is straightforward: vector data consists of N elements, ea
 
 Understanding the RISC-V Vector Extension (RVV) requires familiarity with several key parameters that appear throughout the specification and implementation. These terms recur constantly in vector programming and hardware design, so precise understanding is essential. They determine the register layout, element count, memory behavior, and microarchitectural decomposition of instructions.
 
-**SEW (Standard Element Width)** specifies the width of a single vector element in bits. The supported values are 8, 16, 32, and 64 bits—all powers of two. RVV ISA specifications reserve additional encodings for larger widths like 128 bits, though this remains uncommon.
+**SEW (Selected Element Width)** specifies the width of a single vector element in bits. The supported values are 8, 16, 32, and 64 bits—all powers of two. RVV ISA specifications reserve additional encodings for larger widths like 128 bits, though this remains uncommon.
 
 **VLEN (Vector Register Length)** defines the width of a single vector register in bits. This is a design-time constant fixed at implementation. A common implementation choice is VLEN equal to 512 bits, though 1024, 256 and 128 bits are also widely supported. Throughout this chapter, we use 512 bits as the running example.
 
@@ -187,7 +187,7 @@ The vtype register encodes the vector type configuration, including LMUL, SEW, a
 | 5:3 | vsew[2:0] | Selected element width (SEW) setting |
 | 2:0 | vlmul[2:0] | Vector register group multiplier (LMUL) setting |
 
-Layout of the vtype register showing the five fields that control vector instruction behavior. The vill bit (at position XLEN-1) signals an illegal configuration; vma and vta control the handling of masked and tail elements; vsew encodes the standard element width; and vlmul encodes the register grouping multiplier. Bits XLEN-2 through 8 are reserved and should be written as zeros. This layout is for RV32; on RV64, vill remains at bit 63 with additional reserved bits.
+Layout of the vtype register showing the five fields that control vector instruction behavior. The vill bit (at position XLEN-1) signals an illegal configuration; vma and vta control the handling of masked and tail elements; vsew encodes the selected element width; and vlmul encodes the register grouping multiplier. Bits XLEN-2 through 8 are reserved and should be written as zeros. This layout is for RV32; on RV64, vill remains at bit 63 with additional reserved bits.
 
 *Adapted from "RISC-V Vector Extension Specification, Version 1.0," Section 3.4, RISC-V International, licensed under CC-BY 4.0.*
 
